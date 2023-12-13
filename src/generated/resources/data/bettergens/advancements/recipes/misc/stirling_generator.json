@@ -1,0 +1,35 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "bettergens:stirling_generator"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    },
+    "has_translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.furnace', args=[]}]]]}[style={color=white,hoverEvent=HoverEvent{action=<action show_item>, value='net.minecraft.network.chat.HoverEvent$ItemStackInfo@78c9a98b'}}]": {
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:furnace"
+            ]
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    }
+  },
+  "requirements": [
+    [
+      "has_translation{key='chat.square_brackets', args=[empty[siblings=[translation{key='block.minecraft.furnace', args=[]}]]]}[style={color=white,hoverEvent=HoverEvent{action=<action show_item>, value='net.minecraft.network.chat.HoverEvent$ItemStackInfo@78c9a98b'}}]",
+      "has_the_recipe"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "bettergens:stirling_generator"
+    ]
+  },
+  "sends_telemetry_event": false
+}

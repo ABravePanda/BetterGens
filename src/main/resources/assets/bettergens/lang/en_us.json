@@ -1,0 +1,10 @@
+{
+  "bettergens.generator.progress": "Progress: %s%",
+
+  "bettergens.jei.category.generator.feProduction": "Produces %s FE/tick",
+  "bettergens.jei.category.generator.burnTicks": "Burns for %s ticks",
+
+  "block.bettergens.stirling_generator": "Stirling Generator",
+
+  "creativetab.generators": "BetterGens"
+}

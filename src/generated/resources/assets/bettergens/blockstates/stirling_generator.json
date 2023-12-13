@@ -1,0 +1,34 @@
+{
+  "variants": {
+    "facing=east,generating=false": {
+      "model": "bettergens:block/stirling_generator",
+      "y": 90
+    },
+    "facing=east,generating=true": {
+      "model": "bettergens:block/stirling_generator",
+      "y": 90
+    },
+    "facing=north,generating=false": {
+      "model": "bettergens:block/stirling_generator"
+    },
+    "facing=north,generating=true": {
+      "model": "bettergens:block/stirling_generator"
+    },
+    "facing=south,generating=false": {
+      "model": "bettergens:block/stirling_generator",
+      "y": 180
+    },
+    "facing=south,generating=true": {
+      "model": "bettergens:block/stirling_generator",
+      "y": 180
+    },
+    "facing=west,generating=false": {
+      "model": "bettergens:block/stirling_generator",
+      "y": 270
+    },
+    "facing=west,generating=true": {
+      "model": "bettergens:block/stirling_generator",
+      "y": 270
+    }
+  }
+}

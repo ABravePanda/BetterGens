@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:furnace"
+    },
+    "A": {
+      "item": "minecraft:cobblestone"
+    }
+  },
+  "pattern": [
+    "AAA",
+    "A#A",
+    "AAA"
+  ],
+  "result": {
+    "item": "bettergens:stirling_generator"
+  },
+  "show_notification": true
+}

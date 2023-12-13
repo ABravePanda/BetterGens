@@ -1,0 +1,8 @@
+{
+  "type": "bettergens:stirling_generator",
+  "burn_time_in_ticks": 100,
+  "fe_production_per_tick": 1,
+  "input": {
+    "item": "minecraft:coal"
+  }
+}
